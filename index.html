@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script defer src="app.js"></script>
+    <title>Home Page</title>
+
+    <link rel="stylesheet" href="css/home.css">
+
 </head>
 <body>
-    <h1>What day is it? 😕</h1>
-    <h2>Today is <span id="day">?</span></h2>
 
-    <img src="pug.jpg" width="500" alt="pug">
+    <div class="container">
+        <button class="logout">log out</button>
+        <h1 class="greeting"></h1>
+        <button class="home-button" onclick="goToHomePage()">Go to Home</button>
+    </div>
+
+    <script src="js/home.js"></script>
+    
 </body>
 </html>
